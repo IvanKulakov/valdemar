@@ -1,0 +1,125 @@
+.header {
+  background-color: #000000;
+  color: #ccc;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 1220px) {
+    padding: 10px 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .links-with-language {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .logo {
+    img {
+      height: 40px;
+    }
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav {
+    margin-right: 20px;
+    @media (min-width: 1500px) {
+      margin-right: 70px;
+    }
+    .nav-links {
+      li {
+        display: inline;
+      }
+    }
+  }
+
+  .nav-links a {
+    @media (min-width: 1400px) {
+      padding: 0 8px;
+    }
+    color: #aeafaf;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    @media (max-width: 1200px) {
+      font-size: 14px;
+    }
+
+    &.active {
+      color: #ffffff; // Активний колір
+    }
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+  .contact-info_tel{
+    color: #aeafaf;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+  }
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    margin-right: 40px;
+    @media (min-width: 1500px) {
+      margin-right: 130px;
+    }
+    @media (max-width: 1300px) {
+      font-size: 14px;
+    }
+  }
+
+  .flag-icon {
+    height: 20px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  /* Стили для мобільних пристроїв */
+  @media (max-width: 1100px) {
+    .links-with-language {
+      display: none;
+    }
+    .nav-links {
+      display: none;
+    }
+
+    .contact-info {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .links-with-language {
+      margin-left: auto;
+    }
+  }
+}

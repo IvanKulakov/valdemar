@@ -1,0 +1,5 @@
+Allow: /*
+Allow: /en
+Allow: /ru
+
+Sitemap: https://valdemarexpert.com/sitemap.xml

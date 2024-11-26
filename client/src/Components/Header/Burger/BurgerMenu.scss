@@ -1,0 +1,94 @@
+// src/components/Header/BurgerMenu.scss
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: -100%; // Початково поза межами екрану
+  width: 100%;
+  height: 100vh;
+  background-color: #101010;
+  z-index: 1000;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease; // Плавний перехід
+  &.open {
+    right: 0; // Висувається на екран
+  }
+  .burger-menu-container {
+    height: 100%;
+    padding: 30px 40px;
+    .burger-menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .burger-logo {
+        height: 40px;
+      }
+
+      .close-icon {
+        color: #ffffff;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+
+    .burger-nav-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+
+      li {
+        margin-bottom: 20px;
+        width: 100%;
+        border-bottom: 2px solid #ffffff;
+
+        a {
+          color: #aeafaf;
+          text-decoration: none;
+          font-size: 18px;
+          transition: color 0.3s;
+
+          &.active {
+            color: #ffffff;
+          }
+
+          &:hover {
+            color: #ccc;
+          }
+        }
+      }
+    }
+    .burger-contact-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      height: 50px;
+      background-color: #ffffff;
+      color: #000000;
+      border-radius: 90px;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  .burger-social-network{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .social-network-icon{
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+    }
+  }
+  .burger-info{
+    color: #A3A3A3;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.94px;
+    text-align: center;
+    margin-top: 40px;
+  }
+}

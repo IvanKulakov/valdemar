@@ -1,0 +1,116 @@
+.advice-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 40px;
+  width: 80%;
+  input {
+    background-color: #000000;
+    border: 1px solid #a9a7a7;
+  }
+}
+
+.advice-form-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.advice-form-title {
+  color: #a9a7a7;
+  width: 20%;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.12px;
+  text-align: left;
+  margin: 0;
+}
+
+.advice-form-description {
+  width: 30%;
+  color: #a9a7a7;
+  //styleName: helvetica 16;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.08px;
+  text-align: left;
+}
+
+.advice-form-input {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.advice-form-input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #a9a7a7;
+  border-radius: 5px;
+  color: #a9a7a7;
+}
+
+.advice-form-button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.advice-form-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #a9a7a7;
+  background-color: #0b2324;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 1024px) {
+  .advice-form-container {
+    padding: 20px;
+  }
+
+  .advice-form-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .advice-form-title,
+  .advice-form-description,
+  .advice-form-input,
+  .advice-form-button {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .advice-form-title {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.12px;
+    text-align: center;
+  }
+
+  .advice-form-description {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    text-align: center;
+  }
+
+  .advice-form-button button {
+    width: 100%;
+    padding: 15px;
+  }
+}

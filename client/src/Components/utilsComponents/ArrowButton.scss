@@ -1,0 +1,60 @@
+.arrow-button-main {
+  @media (min-width: 768px) {
+    display: none;
+  }
+  position: fixed;
+  top: calc(80% - 150px);
+  right: 10%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    animation: pulse 1.5s infinite; /* Анімація для кожної кнопки */
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1); /* Ефект збільшення при наведенні */
+    }
+  }
+
+  .viber {
+    background-color: #59267c;
+    animation-delay: 0s; /* Затримка для анімації */
+  }
+
+  .whatsApp {
+    background-color: #075e54;
+    animation-delay: 0.3s; /* Затримка для анімації */
+  }
+
+  .telegram {
+    background-color: #229ed9;
+    animation-delay: 0.6s; /* Затримка для анімації */
+  }
+
+  .phone {
+    background-color: red;
+    animation-delay: 0.9s; /* Затримка для анімації */
+  }
+}
+
+/* Анімація для створення ефекту миготіння */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+}

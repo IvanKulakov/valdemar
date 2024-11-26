@@ -1,0 +1,72 @@
+.reviews-home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .reviews-title {
+    font-family: Helvetica;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60.72px;
+    text-align: center;
+    margin: 15px 0 0 0;
+    color: #a9a7a7;
+
+    @media (max-width: 768px) {
+      font-family: Helvetica;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 49.68px;
+      text-align: center;
+    }
+  }
+  .reviews-mini-title {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.12px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #a9a7a7;
+    @media (max-width: 768px) {
+      font-family: Helvetica;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30.36px;
+      text-align: center;
+    }
+  }
+  button {
+    width: 180px;
+    background-color: #0b2324;
+    color: #a9a7a7;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+    text-align: left;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #fff5f5;
+    @media (max-width: 768px) {
+      margin-bottom: 20px;
+    }
+  }
+  .reviews-mini-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 80px);
+    margin: 30px 0;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      width: calc(100% - 40px);
+      margin: 30px 0;
+    }
+    @media (max-width: 820px) {
+      justify-content: center;
+    }
+  }
+}

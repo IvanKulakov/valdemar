@@ -1,0 +1,98 @@
+.skull-container {
+  position: relative;
+  z-index: 0; /* Встановлює базовий z-index для контейнера */
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/skull.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.75; /* Задайте потрібну прозорість */
+    z-index: -1; /* Зображення буде під основним контентом */
+  }
+  .skull-text {
+    display: flex;
+    padding: 0 40px;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 1024px) {
+      padding: 0px 20px;
+      justify-content: start;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .skull-title {
+      margin: 0;
+      font-family: Abhaya Libre;
+      font-size: 128px;
+      font-weight: 400;
+      line-height: 80px;
+      letter-spacing: -2.010256052017212px;
+      text-align: left;
+      color: #ffffff;
+      @media (max-width: 1024px) {
+        padding: 0px 20px;
+        font-family: Abhaya Libre;
+        font-size: 65px;
+        font-weight: 400;
+        line-height: 80px;
+        letter-spacing: -2.010256052017212px;
+        text-align: left;
+      }
+    }
+    .skull-description {
+      display: flex;
+      font-family: Alatsi;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: justified;
+      color: #ffffff;
+      justify-content: center;
+      .skull-description-pc {
+        display: none;
+      }
+      margin-top: 20px;
+      text-align: left;
+      @media (max-width: 768px) {
+        .skull-description {
+          text-align: left;
+        }
+      }
+      .skull-description-mobile {
+        text-align: center;
+        a {
+          color: rgb(102, 102, 255);
+        }
+      }
+      @media (min-width: 1024px) {
+        max-width: 900px;
+        margin-top: 80px;
+        text-align: left;
+        font-family: Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+
+        .skull-description-mobile {
+          display: none;
+        }
+        .skull-description-pc {
+          display: flex;
+          flex-direction: column;
+          a {
+            color: rgb(102, 102, 255);
+          }
+        }
+      }
+    }
+  }
+}

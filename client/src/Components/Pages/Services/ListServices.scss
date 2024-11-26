@@ -1,0 +1,53 @@
+.list-services-container {
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .pagination li {
+    margin: 0 5px;
+    color: #a9a7a7;
+    cursor: pointer;
+    padding-bottom: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0px;
+    width: 24px;
+    height: 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    a {
+      color: #a9a7a7;
+    }
+  }
+
+  .pagination li:hover {
+    cursor: pointer;
+  }
+
+  .pagination .active {
+    color: #000000;
+    background-color: #a9a7a7;
+    border-radius: 3px;
+  }
+
+  .break-me {
+    cursor: default;
+  }
+  .list-services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 40px;
+    @media (max-width: 768px) {
+      padding: 0 20px;
+    }
+  }
+}

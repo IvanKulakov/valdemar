@@ -1,0 +1,16 @@
+.answer-main1 {
+  background-image: url('../../../assets/answerHome2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    height: 65vh;
+  }
+  margin-bottom: 20px;
+}

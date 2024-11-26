@@ -1,0 +1,19 @@
+.list-icon-main {
+  display: flex;
+  flex-direction: row;
+  .social-network-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #f3f3f3;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    @media (max-width: 768px) {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+    }
+  }
+}

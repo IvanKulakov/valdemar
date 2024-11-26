@@ -1,0 +1,59 @@
+.list-receipt-main {
+  padding: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #a9a7a7;
+  h2 {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: -1.256410002708435px;
+    text-align: center;
+    color: #a9a7a7;
+    @media (max-width: 768px) {
+      font-family: Helvetica;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 49.68px;
+      letter-spacing: -1.256410002708435px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+  .receipts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      .number1 {
+        margin-left: 20px;
+      }
+    }
+    .receipt-item {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 20px;
+      align-items: flex-end;
+      .number-container {
+        padding-bottom: 40px;
+      }
+      @media (max-width: 768px) {
+        width: 300px;
+        margin: 25px auto;
+      }
+    }
+    .text {
+      margin-left: 15px;
+    }
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    justify-self: center;
+  }
+}

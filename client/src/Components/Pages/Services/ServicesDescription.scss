@@ -1,0 +1,97 @@
+.services-main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  overflow: hidden;
+  .services-text {
+    width: 50%;
+    margin-top: 60px;
+    padding: 15px 40px 0 40px;
+    h1 {
+      font-family: Helvetica;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 69px;
+      letter-spacing: -1.256410002708435px;
+      margin: 10px;
+      color: #a9a7a7;
+      margin-left: 0;
+    }
+    p {
+      font-family: Helvetica;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -0.502564013004303px;
+      text-align: left;
+      color: #a9a7a7;
+    }
+    @media (max-width: 1300px) {
+      padding: 0 20px;
+      h1 {
+        margin: 3px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .services-img {
+    width: calc(50% + 80px);
+    border-top-left-radius: 57px;
+    padding-bottom: 40px;
+    img {
+      width: 100%;
+      border-top-left-radius: 57px;
+    }
+  }
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    .services-text {
+      width: calc(100% - 40px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+      padding: 0 20px 0 20px;
+      padding-right: 20px;
+      svg {
+        padding-top: 20px;
+        padding-right: 20px;
+        width: 108px;
+        height: 6px;
+      }
+      h1 {
+        font-family: Helvetica;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 49.68px;
+        letter-spacing: -1.256410002708435px;
+        text-align: center;
+        color: #a9a7a7;
+      }
+      p {
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.502564013004303px;
+        text-align: left;
+        padding: 10px 0;
+        margin: 0;
+        overflow: hidden;
+        max-width: 100%;
+        color: #a9a7a7;
+      }
+    }
+    .services-img {
+      width: 100%;
+      border-radius: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      img {
+        border-radius: 0;
+      }
+    }
+  }
+}

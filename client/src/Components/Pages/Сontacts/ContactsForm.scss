@@ -1,0 +1,137 @@
+.contacts-form-main {
+  background-color: #000000;
+  border-radius: 30px;
+  margin: 40px;
+  margin-bottom: 0;
+  @media (max-width: 1024px) {
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  input {
+    background-color: #c8c6c6;
+  }
+  textarea {
+    background-color: #c8c6c6;
+  }
+  button {
+    background-color: #0b2324;
+  }
+  .contacts-form-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: calc(100% - 80px);
+    padding: 40px;
+    border-radius: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #a9a7a7;
+    @media (max-width: 1024px) {
+      padding: 20px;
+    }
+
+    @media (max-width: 1024px) {
+      width: calc(100% - 40px);
+    }
+    .contacts-form-text {
+      width: 47%;
+      h1 {
+        font-family: Abril Fatface;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32.38px;
+        text-align: left;
+      }
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+    .contacts-form-inputs {
+      width: 47%;
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box; /* Для того, щоб padding і border не впливали на ширину і висоту */
+      }
+      .contacts-form-inputs-name-and-phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        div {
+          width: 48%;
+        }
+        @media (max-width: 768px) {
+          flex-direction: column;
+          div {
+            width: 100%;
+          }
+          .contacts-form-inputs-phone {
+            margin-top: 20px;
+          }
+        }
+      }
+      .contacts-form-email {
+        margin-top: 20px;
+      }
+      textarea {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Для того, щоб padding і border не впливали на ширину і висоту */
+      }
+    }
+    .contacts-form-button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      button {
+        background-color: #0b2324;
+        color: #ffffff;
+        width: 160px;
+        height: 40px;
+        padding: 9px 18px 30px 18px;
+        gap: 10px;
+        border-radius: 10px;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.08px;
+        text-align: left;
+        text-align: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .notification {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .notification-success {
+    color: #4caf50;
+  }
+
+  .notification-error {
+    color: #f44336;
+  }
+}

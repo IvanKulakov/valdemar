@@ -1,0 +1,68 @@
+.not-found {
+  background-image: url(../../../assets/notFound/NotFound.png);
+  background-size: cover;
+  background-position: center;
+  .number404 {
+    margin: 0;
+    padding-top: 200px;
+    font-family: Helvetica;
+    text-align: center;
+    color: linear-gradient(180deg, #052514 43.81%, rgba(64, 68, 93, 0) 100%);
+    @media (max-width: 768px) {
+      padding-top: 100px;
+      svg {
+        width: 300px;
+        height: 100px;
+        margin: 0;
+      }
+    }
+  }
+  h1 {
+    font-family: AKsans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: center;
+    color: #d9d9d9;
+    @media (max-width: 768px) {
+      font-family: AKsans;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 58px;
+      text-align: center;
+    }
+  }
+  p {
+    font-family: AKsans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #a6a6a6;
+    max-width: 1000px;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      font-family: AKsans;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 42px;
+      text-align: center;
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0;
+    padding-bottom: 40px;
+    button {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 21.79px;
+      text-align: center;
+      padding: 12px 24px 12px 24px;
+      background-color: #132b2e;
+      color: #f3f3f3;
+    }
+  }
+}

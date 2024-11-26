@@ -1,0 +1,31 @@
+.short-services-mini-container {
+  display: flex;
+  border-radius: 30px;
+  padding: 20px;
+  align-items: flex-end;
+  height: 340px;
+  .short-services-mini-text {
+    display: flex;
+    flex-direction: column;
+    .short-services-mini-title {
+      margin: 0;
+      color: #ffffff;
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17.5px;
+      text-align: left;
+    }
+    .short-services-mini-description {
+      margin: 0;
+      color: #ffffff;
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 200;
+      line-height: 17.5px;
+      text-align: left;
+      text-align: left;
+      margin-top: 5px;
+    }
+  }
+}
