@@ -23,7 +23,6 @@ const Home = () => {
       <TrainingPeople />
       <ReviewsHome />
       <Answer />
-      <ArrowButton />
     </div>
   );
 };

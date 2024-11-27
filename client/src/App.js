@@ -34,7 +34,6 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/services/2" element={<Services />} />
           <Route path="/services/3" element={<Services />} />
-          <Route path="/reviews" element={<Reviews />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/training" element={<Training />} />
           {/* Англійська */}
@@ -43,7 +42,6 @@ function App() {
           <Route path="/en/services" element={<Services />} />
           <Route path="/en/services/2" element={<Services />} />
           <Route path="/en/services/3" element={<Services />} />
-          <Route path="/en/reviews" element={<Reviews />} />
           <Route path="/en/contacts" element={<Contacts />} />
           <Route path="/en/training" element={<Training />} />
           {/* Російська */}
@@ -52,7 +50,6 @@ function App() {
           <Route path="/ru/services" element={<Services />} />
           <Route path="/ru/services/2" element={<Services />} />
           <Route path="/ru/services/3" element={<Services />} />
-          <Route path="/ru/reviews" element={<Reviews />} />
           <Route path="/ru/contacts" element={<Contacts />} />
           <Route path="/ru/training" element={<Training />} />
 

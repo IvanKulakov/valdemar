@@ -55,9 +55,6 @@ const ReviewsHome = () => {
       <NavLink
         to={`${i18n.language == 'ua' ? '' : '/' + i18n.language}/reviews`}
       >
-        <button style={{ cursor: 'pointer' }} className="mini-reviews-button">
-          {t('Home.moreReviews')}
-        </button>
       </NavLink>
     </div>
   );
