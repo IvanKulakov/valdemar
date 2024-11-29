@@ -1,5 +1,5 @@
 import React from 'react';
-import imgStagesDevelopment from '../../../assets/TrainingPeople.png';
+import imgStagesDevelopment from '../../../assets/Training/Rectangle.png';
 import { ReactComponent as Line } from '../../../assets/StagesDevelopment/line.svg';
 import './TrainingPeople.scss';
 import { t } from 'i18next';
@@ -15,7 +15,7 @@ const TrainingPeople = () => {
           <Line />
         </div>
         <h2 className="training-people-title">
-          {t('Home.trainingPeopleTitle')}
+          {t('Home.aboutI-title')}
         </h2>
         <div className="training-people-description">
           {t('Home.trainingPeopleDescription')}

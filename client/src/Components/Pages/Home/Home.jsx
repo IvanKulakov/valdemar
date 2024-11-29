@@ -17,11 +17,13 @@ const Home = () => {
     <div className="home-container">
       <Skull />
       <ShortServices />
-      <StagesDevelopment />
-      <Advice />
-      <AboutI />
+      {/*<AboutI />*/}
       <TrainingPeople />
-      <ReviewsHome />
+        {/*<Advice />*/}
+
+      <StagesDevelopment />
+
+      {/*<ReviewsHome />*/}
       <Answer />
     </div>
   );

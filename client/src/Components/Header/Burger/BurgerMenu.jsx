@@ -34,9 +34,7 @@ const BurgerMenu = ({ isOpen, onClose }) => {
             </li>
           ))}
         </ul>
-        <NavLink to="/contacts">
-          <div className="burger-contact-container">{t('Header.contact')}</div>
-        </NavLink>
+
         <div className="burger-social-network">
           <SocialNetworks />
         </div>

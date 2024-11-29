@@ -1,5 +1,5 @@
 import React from 'react';
-import imgStagesDevelopment from '../../../assets/StagesDevelopment/StagesDevelopment.jpg';
+import imgStagesDevelopment from '../../../assets/StagesDevelopment/stps.jpg';
 import './StagesDevelopment.scss';
 import { t } from 'i18next';
 import { ReactComponent as Line } from '../../../assets/StagesDevelopment/line.svg';

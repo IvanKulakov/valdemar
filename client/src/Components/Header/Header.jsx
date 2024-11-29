@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom'; // Імпорт NavLink
 import { navLinks } from '../utilsComponents/navLinks';
 import './Header.scss';
-import { ReactComponent as Logo } from '../../assets/svg/logoPC.svg';
+import { ReactComponent as Logo } from '../../assets/svg/logo.svg';
 import { ReactComponent as Burger } from '../../assets/svg/burger.svg';
 import SetLanguage from './SetLanguage';
 import BurgerMenu from './Burger/BurgerMenu';

@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.75; /* Задайте потрібну прозорість */
+    opacity: 1; /* Задайте потрібну прозорість */
     z-index: -1; /* Зображення буде під основним контентом */
   }
   .skull-text {
@@ -36,6 +36,7 @@
       line-height: 80px;
       letter-spacing: -2.010256052017212px;
       text-align: left;
+      -webkit-text-stroke: 1px #000000;
       color: #ffffff;
       @media (max-width: 1024px) {
         padding: 0px 20px;
@@ -53,9 +54,10 @@
       font-size: 24px;
       font-weight: 400;
       line-height: 30px;
-      text-align: justified;
+      text-align: justify;
       color: #ffffff;
       justify-content: center;
+      text-shadow: 2px 0 2px #000000;
       .skull-description-pc {
         display: none;
       }
