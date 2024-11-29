@@ -1,13 +1,13 @@
 {
   "/en/blog": {
-    "title": "Blog - Valdemar",
-    "description": "Read the Valdemar blog, where we publish articles and news about magic, rituals, and other aspects of black magic. Learn about new developments, tips, and first-hand experiences.",
+    "title": "Blog",
+    "description": "Read  blog, where we publish articles and news about magic, rituals, and other aspects of black magic. Learn about new developments, tips, and first-hand experiences.",
     "keywords": "blog, Valdemar, magic, rituals, black magic, magic news, magic tips, magic articles",
     "alternates": ["/ru", "/"],
     "robots": ""
   },
   "/en": {
-    "title": "Valdemar - Professional Magical Services from a Third-Generation Wizard",
+    "title": "Professional Magical Services from a Third-Generation Wizard",
     "description": "Welcome to Valdemar. A third-generation wizard offering services in love magic, battle magic, and necromancy. Personalized approach, proven methods, and guaranteed results.",
     "keywords": "Valdemar, wizard, magical services, love magic, battle magic, necromancy, love spells, relationship restoration, curses, sexual bindings, energy fields",
     "alternates": ["/ru", "/"],
@@ -28,36 +28,36 @@
     "robots": "index, follow"
   },
   "/en/services": {
-    "title": "Services - Love Magic, Magical Protection, Financial Attraction, Future Predictions, Business Rituals - Valdemar",
+    "title": "Services - Love Magic, Magical Protection, Financial Attraction, Future Predictions, Business Rituals",
     "description": "Love magic, spells, financial attraction, and magical protection - professional services for strengthening relationships, improving financial status, and protecting from negative influences. Personalized approach and effective methods to achieve your goals. Contact us to open new opportunities in life!",
     "keywords": "love magic, spell, magical protection, financial attraction, future predictions, business rituals, love spells, financial success, protection from negativity, magical rituals, psychic.",
     "alternates": ["/ru", "/"],
     "robots": "index, follow"
   },
   "/en/services/2": {
-    "title": "Services - Tarot and Book Readings, Removal of Curses, Evil Eye, and Negativity, Removal of the Celibacy Curse, Aura Cleansing, Addiction Removal - Valdemar",
+    "title": "Services - Tarot and Book Readings, Removal of Curses, Evil Eye, and Negativity, Removal of the Celibacy Curse, Aura Cleansing, Addiction Removal",
     "description": "Tarot and book readings for a deep understanding of your life and future events. Removal of curses, evil eye, negativity, celibacy curse, as well as aura and biofield cleansing. Addiction removal and restoration of energetic harmony. Personalized approach for achieving the best results.",
     "keywords": "tarot readings, book readings, removal of curses, removal of evil eye, removal of negativity, removal of celibacy curse, aura cleansing, biofield cleansing, addiction removal, energetic harmony, tarot, magical rituals.",
     "alternates": ["/ru", "/"],
     "robots": "index, follow"
   },
   "/en/services/3": {
-    "title": "Services - Protection from Enemies, Family Reunification, Relationship Improvement, Strong Protection, Distance Assistance - Valdemar",
+    "title": "Services - Protection from Enemies, Family Reunification, Relationship Improvement, Strong Protection",
     "description": "Protection from enemies and dark magic, family relationship restoration, conflict resolution, and ensuring harmony in your life. Using specialized methods to create energetic barriers, strong protection, and distance assistance. Personalized approach for effective problem-solving.",
     "keywords": "protection from enemies, protection from dark magic, family restoration, husband return, wife return, relationship improvement, conflict resolution, energetic protection, protective amulets, distance assistance, magical protection",
     "alternates": ["/ru", "/"],
     "robots": "index, follow"
   },
   "/en/reviews": {
-    "title": "Client Reviews - Valdemar",
-    "description": "Honest client reviews of Valdemar's services in black magic, demonology, magic, cleansing, and spells. Leave feedback and learn about the experiences of other clients.",
+    "title": "Client Reviews",
+    "description": "Honest client reviews of services in magic, cleansing, and spells. Leave feedback and learn about the experiences of other clients.",
     "keywords": "client reviews, Valdemar, black magic, demonology, magic, cleansing, spells, feedback, magical services",
     "alternates": ["/ru", "/"],
     "robots": "index, follow"
   },
   "/en/contacts": {
-    "title": "Contact - Valdemar",
-    "description": "Contact Valdemar to discuss your magical needs. Call +(380) 98 222 6951 or fill out the form for collaboration. We work worldwide.",
+    "title": "Contact",
+    "description": "Contact to discuss your magical needs. Call +380 68 325 83 68 or fill out the form for collaboration. We work worldwide.",
     "keywords": "contact, Valdemar, collaboration, magical services, feedback form, contact phone, international collaboration",
     "alternates": ["/ru", "/"],
     "robots": "index, follow"
@@ -103,12 +103,12 @@
     "answer2": "FIRST CONSULTATION IS FREE"
   },
   "Footer": {
-    "info": "Valdemar - All rights reserved."
+    "info": "All rights reserved."
   },
   "AboutMe": {
     "aboutMe": "About me",
     "title2": "By contacting me, you get:",
-    "description1": "I am a third-generation sorcerer. I practice love magic, including love spells, sexual bindings, relationship restoration, relationship harmonization and the elimination of rivals. I have many years of experience in this field and use proven methods to achieve the best results, providing each individual approach and maximum efficiency. I practice combat magic, which includes damage, discord and other powerful methods of influence. experience.",
+    "description1": "Hello! My name is Nina, and I am glad to welcome you to my website. My story begins in early childhood, when I first realized that I had the gift of clairvoyance and prediction. These abilities were passed down in our family from generation to generation, and I gratefully accepted this gift to help people. From a young age, I felt that my purpose was to bring light and knowledge into the lives of others. My grandmother, a famous healer, taught me ancient traditions and rituals. I tremblingly absorbed the wisdom of my ancestors and learned to work with the energies that surround us.\nMy main goal is to help you find harmony, happiness and success. I believe that every person deserves happiness and can change their life for the better.",
     "whatIWork": "How do I work?",
     "description2": "I conduct both a personal reception and work at a distance using your photographs. For a personal meeting, you can come to my reception. Preliminary diagnostics before work is mandatory! If it is not possible to visit me in person, the work is done at a distance. To do this, you need to call me back or send information to Viber.",
     "listReceiptTitle": "By contacting me, you get:",

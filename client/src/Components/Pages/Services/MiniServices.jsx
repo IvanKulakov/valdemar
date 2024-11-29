@@ -8,24 +8,7 @@ const MiniServices = ({ services }) => {
   return (
     <div className="mini-services">
       <div className="mini-services-img">
-        {services.isImage ? (
           <img src={services.img} alt={services.title} />
-        ) : (
-          <video
-            className="video-background"
-            autoPlay
-            loop
-            muted
-            playsInline
-            webkit-playsinline=""
-            x-webkit-airplay="allow"
-            x5-video-player-type="h5"
-            x5-video-player-fullscreen="true"
-            x5-video-orientation="portraint"
-          >
-            <source src={services.img} type="video/mp4" />
-          </video>
-        )}
       </div>
       <div className="mini-serivces-text">
         <h2 className="mini-services-title">

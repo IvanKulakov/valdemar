@@ -4,6 +4,7 @@
   padding: 20px;
   align-items: flex-end;
   height: 340px;
+  text-decoration: none;
   .short-services-mini-text {
     display: flex;
     flex-direction: column;
@@ -26,6 +27,8 @@
       text-align: left;
       text-align: left;
       margin-top: 5px;
+      text-decoration: none !important;
+
     }
   }
 }

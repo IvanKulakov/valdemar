@@ -6,7 +6,7 @@ const ShortServicesMini = ({ img, title, description }) => {
   return (
     <div className="short-services-mini-container">
 
-        <img className="short-services-mini-video" src={img} type="img" />
+        <img className="short-services-mini-video" src={img} />
       <div className="short-services-mini-text">
         <h3 className="short-services-mini-title">{title}</h3>
         <p className="short-services-mini-description">

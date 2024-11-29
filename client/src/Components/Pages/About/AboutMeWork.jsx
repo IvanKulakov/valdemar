@@ -1,5 +1,5 @@
 import React from 'react';
-import I from '../../../assets/AboutMe/I.png';
+import I from '../../../assets/Training/Rectangle.png';
 import Necklaces from '../../../assets/AboutMe/necklaces.png';
 import { ReactComponent as Line } from '../../../assets/svg/line.svg';
 import './AboutMeWork.scss';

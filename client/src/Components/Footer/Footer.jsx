@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialNetworks from '../utilsComponents/SocialNetworks';
 import './Footer.scss';
-import { ReactComponent as Logo } from '../../assets/svg/logoPC.svg';
+import { ReactComponent as Logo } from '../../assets/svg/logo.svg';
 import { ReactComponent as Line } from '../../assets/svg/FooterLine.svg';
 import { navLinks } from '../utilsComponents/navLinks';
 import { NavLink } from 'react-router-dom';
@@ -20,9 +20,8 @@ const Footer = () => {
               <Logo width="200px" />
             </NavLink>
           </div>
-          <div >
+          <div className="footer-phone-block">
             <a className="footer-phone" href="tel:+380683258368">+(380) 68 325 83 68</a>
-              <br/>
               <a className="footer-phone" href="mailto:dgalinka001@gmail.com">dgalinka001@gmail.com</a>
 
           </div>
