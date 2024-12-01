@@ -20,7 +20,7 @@ const MiniServices = ({ services }) => {
         <div className="phones-and-social-container">
           <div className="phones-and-social">
             <div >
-              <Link className="phones" href="tel:+380683258368">+(380) 68 325 83 68</Link>
+              <Link className="phones" to={'tel:+380683258368'}>+(380) 68 325 83 68</Link>
             </div>
             <div className="social">
               <SocialNetworks />

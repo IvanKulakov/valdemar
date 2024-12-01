@@ -11,7 +11,7 @@ const SocialNetworks = () => {
       <NavLink
         target="_blank"
         to={
-          'https://api.whatsapp.com/send?phone=+380683258368'
+          'https://api.whatsapp.com/send?phone=380683258368'
         }
       >
         <div className="social-network-icon">

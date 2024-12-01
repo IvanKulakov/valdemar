@@ -11,7 +11,8 @@ import Answer from './Answer';
 import ArrowButton from '../../utilsComponents/ArrowButton';
 
 const Home = () => {
-  const { t } = useTranslation();
+    window.scrollTo(0, 0);
+    const { t } = useTranslation();
 
   return (
     <div className="home-container">

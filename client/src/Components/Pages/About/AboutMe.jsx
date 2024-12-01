@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import ArrowButton from '../../utilsComponents/ArrowButton';
 const AboutMe = () => {
   const { t } = useTranslation();
+    window.scrollTo(0, 0);
   return (
     <div className="about-me">
       <AboutMeWork />

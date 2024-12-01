@@ -2,6 +2,7 @@ import { t } from 'i18next';
 import React, { useState } from 'react';
 import axios from 'axios';
 import './ContactsForm.scss';
+import { ReactComponent as Line } from '../../../assets/StagesDevelopment/line.svg';
 import { ReactComponent as Arrow } from '../../../assets/svg/ArrowBottomRight.svg';
 import { isValidPhoneNumber } from 'libphonenumber-js';
 
@@ -96,9 +97,13 @@ const ContactsForm = () => {
   return (
     <div className="contacts-form-main">
       <div className="contacts-form-container">
+
         <div className="contacts-form-text">
+          <div className="line">
+            <Line />
+          </div>
           <h1>{t('Contacts.title1')}</h1>
-          <p>{t('Contacts.description')}</p>
+          <p>{t('Contacts.description1')}</p>
         </div>
         <form className="contacts-form-inputs" onSubmit={handleSubmit}>
           <div className="contacts-form-inputs-name-and-phone">

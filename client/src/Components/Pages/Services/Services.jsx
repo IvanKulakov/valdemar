@@ -7,7 +7,7 @@ import ArrowButton from '../../utilsComponents/ArrowButton';
 import MagicCandle from './MagicCandle';
 
 const Services = () => {
-  const { t } = useTranslation();
+    const { t } = useTranslation();
   return (
     <div
       className="services-main"

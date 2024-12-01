@@ -96,14 +96,16 @@
     "namePlaceholder": "Name",
     "phonePlaceholder": "Phone",
     "trainingPeopleTitle": "Training people",
-    "trainingPeopleDescription": "I conduct training in the following areas: mirror magic, graveyard magic, candle magic, combat magic, working with Hecate and Tarot training. I invite you to join and deepen your knowledge in these fascinating areas.",
+    "trainingPeopleDescription": "My name is Nina, and I am glad to welcome you to my website. My story begins in early childhood, when I first realized that I had the gift of clairvoyance and prediction. These abilities were passed down in our family from generation to generation, and I gratefully accepted this gift to help people.",
+    "trainingPeopleNext": "Read more...",
     "reviewsTitle": "Reviews",
     "reviewsMiniTitle": "Honest reviews from our clients",
     "moreReviews": "More reviews",
     "answer2": "FIRST CONSULTATION IS FREE"
   },
   "Footer": {
-    "info": "All rights reserved."
+    "info": "All rights reserved.",
+    "info1": "*The result depends on individual conditions. Also, the result cannot replace medical treatment if it is prescribed by your attending physician."
   },
   "AboutMe": {
     "aboutMe": "About me",
@@ -179,6 +181,7 @@
   "Contacts": {
     "title1": "Working together",
     "description": "I'm always available to discuss your next service! Call me on: +(380) 68 325 83 68 or fill out the form. Our experts look forward to working with you.",
+    "description1": "I am always ready to help you understand difficult situations and find answers to your questions. Contact me for a consultation, and together we will find a solution to your problems*",
     "name": "Name",
     "phone": "Phone",
     "email": "E-mail",
