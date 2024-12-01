@@ -7,7 +7,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 const ArrowButton = () => {
   return (
     <div className="arrow-button-main">
-      <a href="viber://chat?number=380683258368" className="viber">
+      <a href="viber://chat?number=380966541087" className="viber">
         <MdOutlinePhoneInTalk size={'35px'} color="#ffffff" />
       </a>
       <a

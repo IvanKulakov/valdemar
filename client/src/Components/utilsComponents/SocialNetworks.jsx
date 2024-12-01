@@ -18,7 +18,7 @@ const SocialNetworks = () => {
           <TikTok />
         </div>
       </NavLink>
-      <NavLink target="_blank" to={'viber://chat?number=+380683258368'}>
+      <NavLink target="_blank" to={'viber://chat?number=+380966541087'}>
         <div className="social-network-icon">
           <YouTube />
         </div>
