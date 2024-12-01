@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { navLinks } from '../../utilsComponents/navLinks';
 import './BurgerMenu.scss';
-import { ReactComponent as Logo } from '../../../assets/svg/logoPC.svg';
+import { ReactComponent as Logo } from '../../../assets/svg/logo.svg';
 import { FaTimes } from 'react-icons/fa';
 import { t } from 'i18next';
 import SocialNetworks from '../../utilsComponents/SocialNetworks';

@@ -3,6 +3,7 @@ import './Contacts.scss';
 import ContactsForm from './ContactsForm';
 import { useTranslation } from 'react-i18next';
 import ContactsMap from "./ContactsMap";
+import ArrowButton from "../../utilsComponents/ArrowButton";
 
 const Сontacts = () => {
   const { t } = useTranslation();
@@ -10,6 +11,8 @@ const Сontacts = () => {
     <div className="contacts-main">
       <ContactsForm />
       <ContactsMap />
+      <ArrowButton />
+
     </div>
   );
 };

@@ -23,6 +23,7 @@ const Home = () => {
         {/*<Advice />*/}
         <Answer />
       <StagesDevelopment />
+        <ArrowButton />
 
       {/*<ReviewsHome />*/}
 

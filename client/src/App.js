@@ -35,7 +35,6 @@ function App() {
           <Route path="/services/2" element={<Services />} />
           <Route path="/services/3" element={<Services />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/training" element={<Training />} />
           {/* Англійська */}
           <Route path="/en" element={<Home />} />
           <Route path="/en/about" element={<AboutMe />} />
@@ -43,7 +42,6 @@ function App() {
           <Route path="/en/services/2" element={<Services />} />
           <Route path="/en/services/3" element={<Services />} />
           <Route path="/en/contacts" element={<Contacts />} />
-          <Route path="/en/training" element={<Training />} />
           {/* Російська */}
           <Route path="/ru" element={<Home />} />
           <Route path="/ru/about" element={<AboutMe />} />
@@ -51,7 +49,6 @@ function App() {
           <Route path="/ru/services/2" element={<Services />} />
           <Route path="/ru/services/3" element={<Services />} />
           <Route path="/ru/contacts" element={<Contacts />} />
-          <Route path="/ru/training" element={<Training />} />
 
           {/* Обробка 404 */}
           <Route path="*" element={<NotFound />} />

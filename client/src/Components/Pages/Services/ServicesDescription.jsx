@@ -1,6 +1,6 @@
 import React from 'react';
 import './ServicesDescription.scss';
-import Img from '../../../assets/StagesDevelopment/stps.jpg';
+import Img from '../../../assets/services/reading_future.jpg';
 import { ReactComponent as Line } from '../../../assets/svg/line.svg';
 import { t } from 'i18next';
 

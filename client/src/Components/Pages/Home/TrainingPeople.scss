@@ -57,10 +57,13 @@
       font-weight: 400;
       line-height: 28px;
       letter-spacing: -0.502564013004303px;
-      text-align: left;
       width: 80%;
       @media (max-width: 768px) {
         width: calc(100% - 20px);
+        text-align: left;
+      }
+      @media (min-width: 769px) {
+        text-align: justify;
       }
     }
     .training-people-description_link{
